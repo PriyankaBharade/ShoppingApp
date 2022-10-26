@@ -1,31 +1,84 @@
 import React from 'react';
-import {Text, StyleSheet, Button, View, Image} from 'react-native';
+import {Text, StyleSheet, View, Image, TouchableOpacity} from 'react-native';
 
-function Product() {
+const Product = props => {
   return (
-    <View>
+    <View
+      style={{
+        flex: 1,
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: '#eee',
+        marginTop: 20,
+        marginEnd: 10,
+        padding: 15,
+      }}>
       <Image
+        style={{
+          width: '100%',
+          height: 200,
+          backgroundColor: '#eee',
+          marginBottom: 10,
+        }}
         source={{
-          uri: 'https://reactnative.dev/img/tiny_logo.png',
+          uri: `https://d22kv7nk938ern.cloudfront.net/images/${props.value.CATEGORY_L1}/${props.value.ITEM_ID}.jpg`,
         }}
       />
-      <Text style={{marginBottom: 10, marginTop: 20}} h2>
-        Kid shoes
+
+      <Text
+        style={{
+          letterSpacing: 0.2,
+          fontSize: 14,
+          fontStyle: 'normal',
+          fontWeight: 'bold',
+        }}>
+        {props.value.PRODUCT_NAME}
       </Text>
-      <Text style={styles.price} h4>
-        $ 200
+
+      <Text
+        style={{
+          letterSpacing: 0.2,
+          fontSize: 12,
+          marginTop: 5,
+          marginBottom: 5,
+        }}>
+        {props.value.PRODUCT_DESCRIPTION}
       </Text>
-      <Text h6 style={styles.description}>
-        added 2h ago
+
+      <Text style={{letterSpacing: 0.2, fontSize: 12}}>
+        ${props.value.PRICE}
       </Text>
-      <Button
-        type="clear"
-        title="Buy now"
-        onPress={() => console.log('Click On Product')}
-      />
+      <View style={{flexDirection: 'row'}}>
+        <TouchableOpacity
+          onPress={props.handleClick}
+          style={{
+            flex: 1,
+            marginTop: 15,
+            backgroundColor: '#A1560B',
+            borderRadius: 10,
+            height: 35,
+            justifyContent: 'center',
+          }}>
+          <Text style={{color: '#fff', alignSelf: 'center'}}>Add to Cart</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={{
+            flex: 1,
+            marginTop: 15,
+            marginLeft: 5,
+            backgroundColor: '#A1560B',
+            borderRadius: 10,
+            height: 35,
+            justifyContent: 'center',
+          }}>
+          <Text style={{color: '#fff', alignSelf: 'center'}}>
+            Place to Order
+          </Text>
+        </TouchableOpacity>
+      </View>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   name: {

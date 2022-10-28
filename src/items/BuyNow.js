@@ -3,13 +3,14 @@ import {
   View,
   FlatList,
   Image,
+  ImageBackground,
   Text,
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
 
-const productData = require('../collections/accessories.json');
-function RecentView() {
+const productData = require('../../collections/accessories.json');
+const BuyNow = (props) => {
   return (
     <View>
       <FlatList
@@ -27,7 +28,7 @@ function RecentView() {
                   marginTop: 20,
                   padding: 15,
                 }}>
-                <Image
+                <ImageBackground
                   style={{
                     width: '100%',
                     height: 200,
@@ -36,8 +37,7 @@ function RecentView() {
                   }}
                   source={{
                     uri: `https://d22kv7nk938ern.cloudfront.net/images/${item.item.CATEGORY_L1}/${item.item.ITEM_ID}.jpg`,
-                  }}
-                />
+                  }}></ImageBackground>
                 <Text
                   style={{
                     letterSpacing: 0.2,
@@ -47,7 +47,6 @@ function RecentView() {
                   }}>
                   {item.item.PRODUCT_NAME}
                 </Text>
-
                 <Text
                   style={{
                     letterSpacing: 0.2,
@@ -61,37 +60,36 @@ function RecentView() {
                 <Text style={{letterSpacing: 0.2, fontSize: 12}}>
                   ${item.item.PRICE}
                 </Text>
-                <View style={{flexDirection: 'row',}}>
-                <TouchableOpacity
-                  style={{
-                    flex:1,
-                    marginTop: 15,
-                    marginRight:5,
-                    backgroundColor: '#A1560B',
-                    borderRadius: 10,
-                    height: 35,
-                    justifyContent: 'center',
-                  }}>
-                  <Text style={{color: '#fff', alignSelf: 'center'}}>
-                    Add to Cart
-                  </Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    flex:1,
-                    marginTop: 15,
-                    marginLeft:5,
-                    backgroundColor: '#A1560B',
-                    borderRadius: 10,
-                    height: 35,
-                    justifyContent: 'center',
-                  }}>
-                  <Text style={{color: '#fff', alignSelf: 'center'}}>
-                    Place to Order
-                  </Text>
-                </TouchableOpacity>
+                <View style={{flexDirection: 'row'}}>
+                  <TouchableOpacity onPress={props.handleBuyNow}
+                    style={{
+                      flex: 1,
+                      marginTop: 15,
+                      marginRight: 5,
+                      backgroundColor: '#A1560B',
+                      borderRadius: 10,
+                      height: 35,
+                      justifyContent: 'center',
+                    }}>
+                    <Text style={{color: '#fff', alignSelf: 'center'}}>
+                      Buy Now
+                    </Text>
+                  </TouchableOpacity>
+                  {/* <TouchableOpacity
+                    style={{
+                      flex: 1,
+                      marginTop: 15,
+                      marginLeft: 5,
+                      backgroundColor: '#A1560B',
+                      borderRadius: 10,
+                      height: 35,
+                      justifyContent: 'center',
+                    }}>
+                    <Text style={{color: '#fff', alignSelf: 'center'}}>
+                      Place to Order
+                    </Text>
+                  </TouchableOpacity> */}
                 </View>
-                
               </View>
             </View>
           );
@@ -120,4 +118,4 @@ const styles = StyleSheet.create({
     color: '#c1c4cd',
   },
 });
-export default RecentView;
+export default BuyNow;

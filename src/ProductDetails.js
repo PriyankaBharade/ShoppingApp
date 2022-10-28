@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import RecentView from './RecentView';
 
-function ProductDetails() {
+function ProductDetails({navigation}) {
   const productData = require('../collections/accessories.json');
   const BASE_URL =
   'https://raw.githubusercontent.com/sdras/sample-vue-shop/master/dist';

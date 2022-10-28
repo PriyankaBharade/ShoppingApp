@@ -62,6 +62,7 @@ const Product = props => {
           <Text style={{color: '#fff', alignSelf: 'center'}}>Add to Cart</Text>
         </TouchableOpacity>
         <TouchableOpacity
+          onPress={props.handleBuyNow}
           style={{
             flex: 1,
             marginTop: 15,

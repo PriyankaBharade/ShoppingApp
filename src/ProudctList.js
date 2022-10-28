@@ -4,6 +4,7 @@ import Product from './Product';
 function ProductList({navigation}) {
   const productData = require('../collections/accessories.json');
   const handleClick = () => navigation.navigate('ProductDetails');
+  const handleBuyNow = () => navigation.navigate('PaymentScreen');
   return (
     <View>
       <ScrollView
@@ -16,7 +17,7 @@ function ProductList({navigation}) {
           return (
             <View style={styles.row} key={index}>
               <View style={styles.col}>
-                <Product value={product} handleClick={handleClick}/>
+                <Product value={product} handleClick={handleClick} handleBuyNow={handleBuyNow}/>
               </View>
             </View>
           );

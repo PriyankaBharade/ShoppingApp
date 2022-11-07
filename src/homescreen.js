@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   TextInput,
   View,
@@ -67,32 +67,32 @@ const products = [
 
 const productData = require('../collections/accessories.json');
 
-const category = [
-  {name: 'accessories', img: `${BASE_URL}/jacket2.png`},
-  {name: 'apparel', img: `${BASE_URL}/jacket2.png`},
-  {name: 'beauty', img: `${BASE_URL}/jacket2.png`},
-  {name: 'books', img: `${BASE_URL}/jacket2.png`},
-  {name: 'electronics', img: `${BASE_URL}/jacket2.png`},
-  {name: 'floral', img: `${BASE_URL}/jacket2.png`},
-  {name: 'footwear', img: `${BASE_URL}/jacket2.png`},
-  {name: 'furniture', img: `${BASE_URL}/jacket2.png`},
-  {name: 'groceries', img: `${BASE_URL}/jacket2.png`},
-  {name: 'homedecor', img: `${BASE_URL}/jacket2.png`},
-  {name: 'housewares', img: `${BASE_URL}/jacket2.png`},
-  {name: 'instruments', img: `${BASE_URL}/jacket2.png`},
-  {name: 'jewelry', img: `${BASE_URL}/jacket2.png`},
-  {name: 'outdoors', img: `${BASE_URL}/jacket2.png`},
-  {name: 'seasonal', img: `${BASE_URL}/jacket2.png`},
-  {name: 'tools', img: `${BASE_URL}/jacket2.png`},
-  {name: 'food service', img: `${BASE_URL}/jacket2.png`},
-  {name: 'cold dispensed', img: `${BASE_URL}/jacket2.png`},
-  {name: 'salty snacks', img: `${BASE_URL}/jacket2.png`},
-  {name: 'hot dispensed', img: `${BASE_URL}/jacket2.png`},
-];
 
-function homescreen({navigation}) {
+function homescreen({navigation,route}) {
+  useEffect(()=>{
+    console.log("UserId", route.params.USER_ID)
+    getNewUserList()
+   },[]);
+   
   const handleClick = () => navigation.navigate('ProductList');
   const handleBuyNow = () => navigation.navigate('PaymentScreen');
+  
+  
+
+  const getNewUserList = async () => {
+    try {
+      const response = await fetch(
+        `http://192.168.43.179:3002/api/frequentPurchaseItems/${route.params.USER_ID}/10`,
+      );
+      const jsondata = await response.json();
+      console.log('Jsondata:-   ', jsondata);
+    } catch (errore) {
+      console.log(errore);
+    } finally {
+    }
+  };
+
+
   return (
     <View>
       <View style={{flexDirection: 'row',alignItems:'center'}}>
@@ -149,8 +149,8 @@ function homescreen({navigation}) {
           width: '100%',
           height: '100%',
         }}>
-        <Category category={category} handleClick={handleClick} />
-        <View style={{width: '100%', height: 200}}>
+        <Category handleClick={handleClick} />
+        {/* <View style={{width: '100%', height: 200}}>
           <SwiperFlatList
             autoplay
             autoplayDelay={2}
@@ -174,7 +174,7 @@ function homescreen({navigation}) {
               </View>
             )}
           />
-        </View>
+        </View> */}
         <View>
           <Text style={styles.heading}>
             Frequently repurchased items for you
@@ -197,10 +197,10 @@ function homescreen({navigation}) {
           <Text style={styles.heading}>Inspired by your browser history</Text>
           <RecentView />
         </View>
-        <View>
+        {/* <View>
           <Text style={styles.heading}>Top Pics - </Text>
           <TopPics category={category} handleClick={handleClick} />
-        </View>
+        </View> */}
         <View>
           <Text style={styles.heading}>Trending Daily Needs</Text>
         </View>

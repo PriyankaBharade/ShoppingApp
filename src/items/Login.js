@@ -1,5 +1,13 @@
-import React, {useState} from 'react';
-import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
+import React, {useState, useEffect} from 'react';
+import DropDownList from './DropDownList';
+import {
+  View,
+  Text,
+  StyleSheet,
+  SafeAreaView,
+  ActivityIndicator,
+  TouchableOpacity,
+} from 'react-native';
 import DropDown from 'react-native-paper-dropdown';
 import {
   Appbar,
@@ -12,62 +20,140 @@ import {
 
 function Login({navigation}) {
   const [gender, setGender] = useState('');
-  const [showDropDown, setShowDropDown] = useState(false);
+  const [showDropdown, setShowDropDown] = useState(true);
 
   const [user, setUser] = useState('');
   const [showUserDropDown, setShowUserDropDown] = useState(false);
+  const [userList, setUserList] = useState([]);
+  const [existingUserList, setexistingUserList] = useState([]);
+  const [loader, setLoader] = useState(true);
+
   const genderList = [
     {
-      label: '123456',
-      value: 'male',
+      label: 'New User',
+      name: 'newuser',
     },
     {
-      label: '85798469',
-      value: 'female',
-    },
-    {
-      label: '0849578',
-      value: 'others',
+      label: 'Existing User',
+      name: 'existinguser',
     },
   ];
+  const getNewUserList = async () => {
+    try {
+      const response = await fetch(
+        'http://192.168.43.179:3002/api/getNewUsers',
+      );
+      const jsondata = await response.json();
+      setUserList(jsondata);
+      console.log('Jsondata:-   ', jsondata);
+    } catch (errore) {
+      console.log(errore);
+    } finally {
+      setLoader(false);
+    }
+  };
+
+  const getUsersWithTransaction = async () => {
+    try {
+      const response = await fetch(
+        'http://192.168.43.179:3002/api/getUsersWithTransaction',
+      );
+      const jsondata = await response.json();
+      console.log('Existing Data:-   ', jsondata);
+      setUserList(jsondata);
+    } catch (errore) {
+      console.log(errore);
+    } finally {
+      setLoader(false);
+    }
+  };
+
+  const getSelectedUser = item => {
+    console.log('GENDER===============', gender?.key);
+    if (item?.key === 'New User') {
+      //new user api here...
+      getNewUserList()
+    } else if (item?.key === 'Existing User') {
+      //existing user api call here...
+      getUsersWithTransaction()
+    } else {
+      //else return nothing....
+      return undefined;
+    }
+  };
+
+  // useEffect(() => {
+  //   getSelectedUser(gender);
+  // }, [gender]);
+
   return (
     <Provider>
       <ThemeProvider>
         <SafeAreaView style={styles.safeContainerStyle}>
           <View style={styles.container}>
             <Text style={styles.headingStyle}>Sign In</Text>
-            <View style={styles.dropdwonstyle}>
-              <DropDown
-                dropDownStyle={{marginTop: 10, marginLeft: 5}}
-                label={'Select User Type'}
-                mode={'outlined'}
-                visible={showDropDown}
-                showDropDown={() => setShowDropDown(true)}
-                onDismiss={() => setShowDropDown(false)}
-                value={gender}
-                setValue={setGender}
-                list={genderList}
-              />
-            </View>
-
+            <TouchableOpacity
+              onPress={() => {
+                setShowDropDown(!showDropdown);
+              }}
+              style={styles.dropdwonstyle}>
+              <Text>{gender ? gender?.key : 'Select User Type'}</Text>
+            </TouchableOpacity>
+            <DropDownList
+              list={[{key: 'New User'}, {key: 'Existing User'}]}
+              showDropdown={showDropdown}
+              setShowDropdown={() => {
+                //setShowUserDropDown(!showDropdown);
+              }}
+              onItemSelected={item => {
+                if (item) {
+                  setGender(item);
+                  setShowDropDown(!showDropdown);
+                 // getSelectedUser(item)
+                  if (item?.key === 'New User') {
+                    //new user api here...
+                    getNewUserList()
+                  } else if (item?.key === 'Existing User') {
+                    //existing user api call here...
+                    getUsersWithTransaction()
+                  }
+                } else {
+                  setShowDropDown(!showDropdown);
+                }
+                
+              }}
+            />
             <View style={styles.spacerStyle} />
-            <View style={styles.dropdwonstyle}>
-              <DropDown
-                style={styles.dropdwonstyle}
-                dropDownStyle={{marginTop: 10, marginLeft: 5}}
-                label={'Select User'}
-                mode={'outlined'}
-                visible={showUserDropDown}
-                showDropDown={() => setShowUserDropDown(true)}
-                onDismiss={() => {
-                  setShowUserDropDown(false);
-                  navigation.navigate('Home')
-                }}
-                value={user}
-                setValue={setUser}
-                list={genderList}
-              />
-            </View>
+            <TouchableOpacity onPress={
+              ()=>{
+                setShowUserDropDown(!showUserDropDown);
+              }
+            } style={styles.dropdwonstyle}>
+              <Text onPress={DropDownList}>Select User</Text>
+            </TouchableOpacity>
+            <DropDownList
+              list={userList}
+              showDropdown={showUserDropDown}
+              setShowDropdown={() => {
+                //setShowUserDropDown(!showDropdown);
+              }}
+              onItemSelected={item => {
+                if (item) {
+                  setShowUserDropDown(!showUserDropDown);
+                   navigation.navigate('Home',{'USER_ID':item?.USER_ID})
+                } else {
+                  setShowUserDropDown(!showUserDropDown);
+                }
+                console.log(item);
+              }}
+            />
+            {/* {loader ? (
+              <ActivityIndicator />
+            ) : (
+              <View style={styles.dropdwonstyle}>
+                
+              </View>
+            )} */}
           </View>
         </SafeAreaView>
       </ThemeProvider>
@@ -85,6 +171,10 @@ const styles = StyleSheet.create({
   },
   dropdwonstyle: {
     margin: 10,
+    padding: 10,
+    borderWidth: 1,
+    borderColor: 'grey',
+    borderRadius: 2,
   },
   spacerStyle: {
     marginBottom: 15,

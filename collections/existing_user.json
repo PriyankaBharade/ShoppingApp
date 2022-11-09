@@ -1,0 +1,1001 @@
+[{
+	"_id": "63523d7ef02ad4cd2d983ae7",
+	"USER_ID": 6012,
+	"AGE": 61,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae6",
+	"USER_ID": 6011,
+	"AGE": 18,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae3",
+	"USER_ID": 6009,
+	"AGE": 38,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae2",
+	"USER_ID": 6007,
+	"AGE": 20,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae1",
+	"USER_ID": 6006,
+	"AGE": 24,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983adf",
+	"USER_ID": 6005,
+	"AGE": 24,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae0",
+	"USER_ID": 6004,
+	"AGE": 38,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ade",
+	"USER_ID": 6003,
+	"AGE": 43,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983add",
+	"USER_ID": 6002,
+	"AGE": 58,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983adc",
+	"USER_ID": 6001,
+	"AGE": 31,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ada",
+	"USER_ID": 6000,
+	"AGE": 24,
+	"GENDER": "F",
+	"NAME": "Kimberly Frost",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad9",
+	"USER_ID": 5999,
+	"AGE": 34,
+	"GENDER": "F",
+	"NAME": "Ashley King",
+	"PERSONA": "housewares_tools_beauty",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad8",
+	"USER_ID": 5998,
+	"AGE": 44,
+	"GENDER": "M",
+	"NAME": "Nicholas Baldwin",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad7",
+	"USER_ID": 5997,
+	"AGE": 35,
+	"GENDER": "F",
+	"NAME": "Carla Russell",
+	"PERSONA": "electronics_outdoors_footwear",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad6",
+	"USER_ID": 5996,
+	"AGE": 41,
+	"GENDER": "M",
+	"NAME": "Eric Russell",
+	"PERSONA": "furniture_homedecor_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad5",
+	"USER_ID": 5995,
+	"AGE": 21,
+	"GENDER": "F",
+	"NAME": "Amber Jones",
+	"PERSONA": "housewares_floral_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad4",
+	"USER_ID": 5994,
+	"AGE": 35,
+	"GENDER": "F",
+	"NAME": "Samantha Thomas",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad3",
+	"USER_ID": 5993,
+	"AGE": 34,
+	"GENDER": "M",
+	"NAME": "David Carpenter",
+	"PERSONA": "tools_housewares_apparel",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad2",
+	"USER_ID": 5992,
+	"AGE": 36,
+	"GENDER": "F",
+	"NAME": "Katie Clark",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad1",
+	"USER_ID": 5991,
+	"AGE": 18,
+	"GENDER": "F",
+	"NAME": "Jordan Smith",
+	"PERSONA": "apparel_footwear_accessories",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ad0",
+	"USER_ID": 5990,
+	"AGE": 47,
+	"GENDER": "F",
+	"NAME": "Amber Harrington",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983acf",
+	"USER_ID": 5989,
+	"AGE": 40,
+	"GENDER": "M",
+	"NAME": "John White",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ace",
+	"USER_ID": 5988,
+	"AGE": 55,
+	"GENDER": "F",
+	"NAME": "Kristen Holmes",
+	"PERSONA": "groceries_beauty_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983acd",
+	"USER_ID": 5987,
+	"AGE": 37,
+	"GENDER": "M",
+	"NAME": "George Murphy",
+	"PERSONA": "groceries_furniture_floral",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983acc",
+	"USER_ID": 5986,
+	"AGE": 18,
+	"GENDER": "F",
+	"NAME": "Andrea Cook",
+	"PERSONA": "groceries_beauty_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983acb",
+	"USER_ID": 5985,
+	"AGE": 23,
+	"GENDER": "M",
+	"NAME": "Robert Rivera",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aca",
+	"USER_ID": 5984,
+	"AGE": 20,
+	"GENDER": "F",
+	"NAME": "Jessica Webster",
+	"PERSONA": "apparel_footwear_accessories",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac9",
+	"USER_ID": 5983,
+	"AGE": 59,
+	"GENDER": "M",
+	"NAME": "Bobby Zhang",
+	"PERSONA": "groceries_seasonal_tools",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac8",
+	"USER_ID": 5982,
+	"AGE": 18,
+	"GENDER": "F",
+	"NAME": "Amanda Cox",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac7",
+	"USER_ID": 5981,
+	"AGE": 40,
+	"GENDER": "F",
+	"NAME": "Jennifer Reyes",
+	"PERSONA": "tools_housewares_apparel",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac6",
+	"USER_ID": 5980,
+	"AGE": 37,
+	"GENDER": "M",
+	"NAME": "David Fuller",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac5",
+	"USER_ID": 5979,
+	"AGE": 36,
+	"GENDER": "F",
+	"NAME": "Jacqueline Ray",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac4",
+	"USER_ID": 5978,
+	"AGE": 24,
+	"GENDER": "M",
+	"NAME": "Christopher Barron",
+	"PERSONA": "homedecor_electronics_outdoors",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac3",
+	"USER_ID": 5977,
+	"AGE": 20,
+	"GENDER": "M",
+	"NAME": "Marvin Hodges",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac2",
+	"USER_ID": 5976,
+	"AGE": 58,
+	"GENDER": "M",
+	"NAME": "Joseph Nichols",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac1",
+	"USER_ID": 5975,
+	"AGE": 28,
+	"GENDER": "F",
+	"NAME": "Erica Trujillo",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ac0",
+	"USER_ID": 5974,
+	"AGE": 49,
+	"GENDER": "F",
+	"NAME": "Heather Rogers",
+	"PERSONA": "floral_beauty_jewelry",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983abf",
+	"USER_ID": 5973,
+	"AGE": 46,
+	"GENDER": "F",
+	"NAME": "Anna Walker",
+	"PERSONA": "furniture_homedecor_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983abe",
+	"USER_ID": 5972,
+	"AGE": 25,
+	"GENDER": "M",
+	"NAME": "Michael Patterson",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983abd",
+	"USER_ID": 5971,
+	"AGE": 46,
+	"GENDER": "F",
+	"NAME": "Lauren Hoffman",
+	"PERSONA": "homedecor_electronics_outdoors",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983abc",
+	"USER_ID": 5970,
+	"AGE": 47,
+	"GENDER": "M",
+	"NAME": "Edward Jones",
+	"PERSONA": "outdoors_instruments_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983abb",
+	"USER_ID": 5969,
+	"AGE": 56,
+	"GENDER": "M",
+	"NAME": "Robert Johnson",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aba",
+	"USER_ID": 5968,
+	"AGE": 21,
+	"GENDER": "M",
+	"NAME": "Craig Meza",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab9",
+	"USER_ID": 5967,
+	"AGE": 53,
+	"GENDER": "M",
+	"NAME": "Joshua Morgan",
+	"PERSONA": "furniture_homedecor_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab8",
+	"USER_ID": 5966,
+	"AGE": 52,
+	"GENDER": "M",
+	"NAME": "Ryan Johnson",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab7",
+	"USER_ID": 5965,
+	"AGE": 34,
+	"GENDER": "M",
+	"NAME": "Mark Williams",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab6",
+	"USER_ID": 5964,
+	"AGE": 45,
+	"GENDER": "M",
+	"NAME": "Gregory Foster",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab5",
+	"USER_ID": 5963,
+	"AGE": 32,
+	"GENDER": "F",
+	"NAME": "Brittany Perry",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab4",
+	"USER_ID": 5962,
+	"AGE": 57,
+	"GENDER": "F",
+	"NAME": "Denise Richards",
+	"PERSONA": "furniture_homedecor_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab3",
+	"USER_ID": 5961,
+	"AGE": 32,
+	"GENDER": "F",
+	"NAME": "Cheyenne Davis",
+	"PERSONA": "tools_housewares_apparel",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab2",
+	"USER_ID": 5960,
+	"AGE": 47,
+	"GENDER": "F",
+	"NAME": "Brittany Brown",
+	"PERSONA": "books_apparel_homedecor",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab1",
+	"USER_ID": 5959,
+	"AGE": 45,
+	"GENDER": "M",
+	"NAME": "Mark Hamilton",
+	"PERSONA": "groceries_beauty_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ab0",
+	"USER_ID": 5958,
+	"AGE": 31,
+	"GENDER": "M",
+	"NAME": "Frank Hicks",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aaf",
+	"USER_ID": 5957,
+	"AGE": 29,
+	"GENDER": "F",
+	"NAME": "Michelle Long",
+	"PERSONA": "tools_housewares_apparel",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aae",
+	"USER_ID": 5956,
+	"AGE": 39,
+	"GENDER": "F",
+	"NAME": "Melissa Allison",
+	"PERSONA": "housewares_tools_beauty",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aad",
+	"USER_ID": 5955,
+	"AGE": 20,
+	"GENDER": "F",
+	"NAME": "Jennifer Stevens",
+	"PERSONA": "outdoors_instruments_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aac",
+	"USER_ID": 5954,
+	"AGE": 39,
+	"GENDER": "M",
+	"NAME": "Kyle Bishop",
+	"PERSONA": "electronics_outdoors_footwear",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aab",
+	"USER_ID": 5953,
+	"AGE": 46,
+	"GENDER": "M",
+	"NAME": "Neil Armstrong",
+	"PERSONA": "floral_beauty_jewelry",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aaa",
+	"USER_ID": 5952,
+	"AGE": 24,
+	"GENDER": "M",
+	"NAME": "Kevin Turner",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa9",
+	"USER_ID": 5951,
+	"AGE": 23,
+	"GENDER": "M",
+	"NAME": "Luis Perry",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa8",
+	"USER_ID": 5950,
+	"AGE": 47,
+	"GENDER": "F",
+	"NAME": "Ann Frey",
+	"PERSONA": "groceries_beauty_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa7",
+	"USER_ID": 5949,
+	"AGE": 41,
+	"GENDER": "M",
+	"NAME": "Robert Rodriguez",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa6",
+	"USER_ID": 5948,
+	"AGE": 18,
+	"GENDER": "F",
+	"NAME": "Shirley Goodman",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa5",
+	"USER_ID": 5947,
+	"AGE": 30,
+	"GENDER": "F",
+	"NAME": "Kimberly Gonzalez",
+	"PERSONA": "floral_beauty_jewelry",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa4",
+	"USER_ID": 5946,
+	"AGE": 30,
+	"GENDER": "M",
+	"NAME": "Noah Blake",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa3",
+	"USER_ID": 5945,
+	"AGE": 60,
+	"GENDER": "F",
+	"NAME": "Kelly Norton",
+	"PERSONA": "groceries_furniture_floral",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa2",
+	"USER_ID": 5944,
+	"AGE": 51,
+	"GENDER": "M",
+	"NAME": "Stephen Parker",
+	"PERSONA": "floral_beauty_jewelry",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa1",
+	"USER_ID": 5943,
+	"AGE": 18,
+	"GENDER": "F",
+	"NAME": "Lauren Johnson",
+	"PERSONA": "groceries_furniture_floral",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aa0",
+	"USER_ID": 5942,
+	"AGE": 26,
+	"GENDER": "F",
+	"NAME": "Sandra Casey",
+	"PERSONA": "apparel_footwear_accessories",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a9f",
+	"USER_ID": 5941,
+	"AGE": 32,
+	"GENDER": "M",
+	"NAME": "Kenneth Thompson",
+	"PERSONA": "outdoors_instruments_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a9e",
+	"USER_ID": 5940,
+	"AGE": 28,
+	"GENDER": "F",
+	"NAME": "Maureen Lee",
+	"PERSONA": "electronics_outdoors_footwear",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a9d",
+	"USER_ID": 5939,
+	"AGE": 27,
+	"GENDER": "M",
+	"NAME": "Dennis Stafford",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a9c",
+	"USER_ID": 5938,
+	"AGE": 26,
+	"GENDER": "M",
+	"NAME": "Luke Fisher",
+	"PERSONA": "housewares_floral_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a9b",
+	"USER_ID": 5937,
+	"AGE": 41,
+	"GENDER": "F",
+	"NAME": "Mary Stevenson",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a9a",
+	"USER_ID": 5936,
+	"AGE": 43,
+	"GENDER": "F",
+	"NAME": "Jennifer Santiago",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a99",
+	"USER_ID": 5935,
+	"AGE": 31,
+	"GENDER": "F",
+	"NAME": "Jordan Valentine",
+	"PERSONA": "groceries_seasonal_tools",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a98",
+	"USER_ID": 5934,
+	"AGE": 66,
+	"GENDER": "M",
+	"NAME": "Ryan Jones",
+	"PERSONA": "groceries_beauty_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a97",
+	"USER_ID": 5933,
+	"AGE": 27,
+	"GENDER": "M",
+	"NAME": "Darin Torres",
+	"PERSONA": "tools_housewares_apparel",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a96",
+	"USER_ID": 5932,
+	"AGE": 30,
+	"GENDER": "M",
+	"NAME": "William Martinez",
+	"PERSONA": "furniture_homedecor_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a95",
+	"USER_ID": 5931,
+	"AGE": 21,
+	"GENDER": "M",
+	"NAME": "Michael Davis",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a94",
+	"USER_ID": 5930,
+	"AGE": 52,
+	"GENDER": "M",
+	"NAME": "Walter Nguyen",
+	"PERSONA": "outdoors_instruments_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a93",
+	"USER_ID": 5929,
+	"AGE": 39,
+	"GENDER": "M",
+	"NAME": "Hector Nunez",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a92",
+	"USER_ID": 5928,
+	"AGE": 41,
+	"GENDER": "F",
+	"NAME": "Sonya Lawson",
+	"PERSONA": "floral_beauty_jewelry",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a91",
+	"USER_ID": 5927,
+	"AGE": 45,
+	"GENDER": "M",
+	"NAME": "Jacob Stewart",
+	"PERSONA": "housewares_floral_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a90",
+	"USER_ID": 5926,
+	"AGE": 42,
+	"GENDER": "F",
+	"NAME": "Lisa Silva",
+	"PERSONA": "accessories_groceries_books",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a8f",
+	"USER_ID": 5925,
+	"AGE": 27,
+	"GENDER": "M",
+	"NAME": "Donald White",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a8e",
+	"USER_ID": 5924,
+	"AGE": 40,
+	"GENDER": "M",
+	"NAME": "Jason Davis",
+	"PERSONA": "housewares_floral_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a8d",
+	"USER_ID": 5923,
+	"AGE": 24,
+	"GENDER": "F",
+	"NAME": "Jasmin Martinez",
+	"PERSONA": "instruments_books_electronics",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a8c",
+	"USER_ID": 5922,
+	"AGE": 60,
+	"GENDER": "F",
+	"NAME": "Emily Martin",
+	"PERSONA": "groceries_beauty_housewares",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a8b",
+	"USER_ID": 5921,
+	"AGE": 22,
+	"GENDER": "M",
+	"NAME": "Craig Myers",
+	"PERSONA": "electronics_outdoors_footwear",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a8a",
+	"USER_ID": 5920,
+	"AGE": 38,
+	"GENDER": "M",
+	"NAME": "Mike Flynn",
+	"PERSONA": "outdoors_instruments_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a89",
+	"USER_ID": 5919,
+	"AGE": 28,
+	"GENDER": "F",
+	"NAME": "Tina Cruz",
+	"PERSONA": "housewares_tools_beauty",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a88",
+	"USER_ID": 5918,
+	"AGE": 40,
+	"GENDER": "M",
+	"NAME": "Joel Payne",
+	"PERSONA": "beauty_electronics_groceries",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a87",
+	"USER_ID": 5917,
+	"AGE": 65,
+	"GENDER": "M",
+	"NAME": "Erik Bryan",
+	"PERSONA": "groceries_seasonal_tools",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a86",
+	"USER_ID": 5916,
+	"AGE": 21,
+	"GENDER": "F",
+	"NAME": "Kimberly Meyer",
+	"PERSONA": "books_apparel_homedecor",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a85",
+	"USER_ID": 5915,
+	"AGE": 35,
+	"GENDER": "M",
+	"NAME": "Austin Smith",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "LOW_CONVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a84",
+	"USER_ID": 5914,
+	"AGE": 32,
+	"GENDER": "F",
+	"NAME": "Tiffany Hart",
+	"PERSONA": "footwear_jewelry_furniture",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a83",
+	"USER_ID": 5913,
+	"AGE": 42,
+	"GENDER": "F",
+	"NAME": "Heather Chen",
+	"PERSONA": "beauty_accessories_instruments",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "HIGH_COVERSION",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a82",
+	"USER_ID": 5912,
+	"AGE": 55,
+	"GENDER": "F",
+	"NAME": "Angela Gibson",
+	"PERSONA": "electronics_outdoors_footwear",
+	"DISCOUNT_PERSONA": "DISCOUNT_NOT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}, {
+	"_id": "63523d7ef02ad4cd2d983a81",
+	"USER_ID": 5911,
+	"AGE": 32,
+	"GENDER": "F",
+	"NAME": "Nicole Rosario",
+	"PERSONA": "tools_housewares_apparel",
+	"DISCOUNT_PERSONA": "DISCOUNT_INTERESTED",
+	"BEHAVIOUR_CATEGORY": "AVERAGE",
+	"USED": "Y"
+}]

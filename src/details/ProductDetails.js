@@ -1,62 +1,46 @@
-import React from 'react';
-import {SwiperFlatList} from 'react-native-swiper-flatlist';
+import React, {useEffect, useState} from 'react';
 import {
   View,
   Image,
   Text,
   ScrollView,
   StyleSheet,
-  FlatList,
   TouchableOpacity,
 } from 'react-native';
-import RecentView from './RecentView';
+import SimilarProduct from './SimilarProduct';
+import storage from '../storage/Storage';
 
-function ProductDetails({navigation}) {
-  const productData = require('../collections/accessories.json');
-  const BASE_URL =
-  'https://raw.githubusercontent.com/sdras/sample-vue-shop/master/dist';
-  const products = [
-    {
-      name: 'Khaki Suede Polish Work Boots',
-      price: 149.99,
-      img: `${BASE_URL}/shoe1.png`,
-    },
-    {
-      name: 'Camo Fang Backpack Jungle',
-      price: 39.99,
-      img: `${BASE_URL}/jacket1.png`,
-    },
-    {
-      name: 'Parka and Quilted Liner Jacket',
-      price: 49.99,
-      img: `${BASE_URL}/jacket2.png`,
-    },
-    {
-      name: 'Cotton Black Cap',
-      price: 12.99,
-      img: `${BASE_URL}/hat1.png`,
-    },
-    {
-      name: 'Cotton Black Cap',
-      price: 12.99,
-      img: `${BASE_URL}/hat1.png`,
-    },
-    {
-      name: 'Cotton Black Cap',
-      price: 12.99,
-      img: `${BASE_URL}/hat1.png`,
-    },
-    {
-      name: 'Cotton Black Cap',
-      price: 12.99,
-      img: `${BASE_URL}/hat1.png`,
-    },
-    {
-      name: 'Cotton Black Cap',
-      price: 12.99,
-      img: `${BASE_URL}/hat1.png`,
-    },
-  ];
+function ProductDetails({navigation, route}) {
+  const handleBuyNow = item => {
+    console.log('Product List', item.item);
+    navigation.navigate('Payment', {PRODUCTITEM: item.item});
+  };
+
+  const handleClickOnPlaceOrder = item => {
+    console.log('Product List Place Order ', item);
+    navigation.navigate('Payment', {PRODUCTITEM: item.item});
+  };
+  const [UserId, setUserId] = useState('');
+  useEffect(() => {
+    storage
+      .load({
+        key: 'USERID',
+        autoSync: true,
+        syncInBackground: true,
+      })
+      .then(userId => {
+        setUserId(userId);
+      });
+    getpostEvents();
+  }, [UserId]);
+
+  const getpostEvents = async () => {
+    let response = await fetch(
+      `http://192.168.43.179:3002/api/postEvents/${route.params.PRODUCTITEM.ITEM_ID}/${UserId}/View`,
+    );
+    let jsonData = await response.json();
+  };
+
   return (
     <ScrollView
       style={{
@@ -71,24 +55,25 @@ function ProductDetails({navigation}) {
             top: 12,
           }}
           source={{
-            uri: 'https://raw.githubusercontent.com/sdras/sample-vue-shop/master/dist/shoe1.png',
+            uri: `https://d22kv7nk938ern.cloudfront.net/images/${route.params.PRODUCTITEM.CATEGORY_L1}/${route.params.PRODUCTITEM.ITEM_ID}.jpg`,
           }}
         />
         <View
           style={{
             marginLeft: 10,
             top: 10,
+            marginTop: 10,
             flexDirection: 'row',
           }}>
           <Text
             style={{
               letterSpacing: 0.2,
-              fontSize: 14,
-              fontStyle: 'normal',
+              fontSize: 18,
+              color: 'black',
               alignSelf: 'center',
               fontWeight: 'bold',
             }}>
-            Khaki Suede Polish Work Boots
+            {route.params.PRODUCTITEM.PRODUCT_NAME}
           </Text>
         </View>
         <View
@@ -106,7 +91,7 @@ function ProductDetails({navigation}) {
               alignSelf: 'center',
               fontWeight: 'normal',
             }}>
-            $ 300
+            {route.params.PRODUCTITEM.PRICE}
           </Text>
           <Text
             style={{
@@ -116,7 +101,7 @@ function ProductDetails({navigation}) {
               alignSelf: 'center',
               fontWeight: 'bold',
             }}>
-            $ 149.9
+            {route.params.PRODUCTITEM.PRICE}
           </Text>
           <Text
             style={{
@@ -203,7 +188,7 @@ function ProductDetails({navigation}) {
           </View>
         </View>
 
-        <View style={{marginLeft: 5, marginTop: 5}}>
+        {/* <View style={{marginLeft: 5, marginTop: 5}}>
           <Text
             style={{
               letterSpacing: 0.2,
@@ -295,7 +280,7 @@ function ProductDetails({navigation}) {
               XL
             </Text>
           </View>
-        </View>
+        </View> */}
 
         <Text
           style={{
@@ -305,10 +290,10 @@ function ProductDetails({navigation}) {
             marginLeft: 10,
             marginBottom: 5,
           }}>
-          Props are read-only, they should not be mutated. We cannot pass props
-          from a child component to a parent component
+          {route.params.PRODUCTITEM.PRODUCT_DESCRIPTION}
         </Text>
         <TouchableOpacity
+          onPress={() => {handleClickOnPlaceOrder(route.params.PRODUCTITEM)}}
           style={{
             marginTop: 15,
             backgroundColor: '#A1560B',
@@ -323,8 +308,11 @@ function ProductDetails({navigation}) {
           </Text>
         </TouchableOpacity>
         <Text style={styles.heading}>Similar Product</Text>
-
-        <FlatList
+        <SimilarProduct
+          productItem={route.params.PRODUCTITEM}
+          handleBuyNow={handleBuyNow}
+        />
+        {/* <FlatList
           data={productData}
           horizontal
           renderItem={item => {
@@ -407,7 +395,7 @@ function ProductDetails({navigation}) {
               </View>
             );
           }}
-        />
+        /> */}
       </View>
     </ScrollView>
   );
@@ -422,8 +410,8 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 22,
     margin: 8,
-    fontWeight: 'bold',
-    color: '#5a647d',
+    fontWeight: '700',
+    color: 'black',
     borderBottomColor: '#5a647d',
     borderBottomWidth: 1,
     borderBottomLength: 60,

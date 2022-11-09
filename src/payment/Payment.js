@@ -8,9 +8,26 @@ import {
   Button,
   Alert,
 } from 'react-native';
-import {CreditCardInput} from 'react-native-credit-card-input';
+import storage from '../storage/Storage';
+function Payment({navigation,route}) {
+  var UserId;
+  storage
+    .load({
+      key: 'USERID',
+      autoSync: true,
+      syncInBackground: true,
+    })
+    .then(userId => {
+      UserId = userId;
+    });
+  const getpostEvents = async () => {
+    let response = await fetch(
+      `http://192.168.43.179:3002/api/postEvents/${route.params.PRODUCTITEM.ITEM_ID}/${UserId}/Purchase`,
+    );
+    let jsonData = await response.json();
+    navigation.goBack()
+  };
 
-function PaymentScreen({navigation}) {
   return (
     <ScrollView
       style={{
@@ -48,7 +65,7 @@ function PaymentScreen({navigation}) {
             title="Pay $30.00"
             onPress={() => {
               Alert.alert('Payment Done', 'Payment Successfully completed', [
-                {text: 'OK', onPress: () => navigation.goBack()},
+                {text: 'OK', onPress: () => getpostEvents()},
               ]);
             }}
           />
@@ -134,4 +151,4 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
 });
-export default PaymentScreen;
+export default Payment;

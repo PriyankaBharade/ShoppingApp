@@ -1,0 +1,27 @@
+[{
+	"ITEM_ID": "50ed0b72-639d-468e-ab8a-1e97be4259e6",
+	"USER_ID": 5988,
+	"EVENT_TYPE": "AddToCart",
+	"TIMESTAMP": "1667815733911",
+	"PRICE": 194.99,
+	"CATEGORY_L1": "apparel",
+	"CATEGORY_L2": "shirt",
+	"PRODUCT_NAME": "Light Gray Shirt",
+	"PRODUCT_DESCRIPTION": "Matchless light gray dressy shirt for women",
+	"FREQUENCY": "Occasional",
+	"DISCOUNT": "YES",
+	"DISCOUNT_PERCENT": 5
+}, {
+	"ITEM_ID": "63074efc-388e-4505-b984-5b25a4441299",
+	"USER_ID": 5988,
+	"EVENT_TYPE": "Purchase",
+	"TIMESTAMP": "1667808988845",
+	"PRICE": 22.99,
+	"CATEGORY_L1": "beauty",
+	"CATEGORY_L2": "bathing",
+	"PRODUCT_NAME": "Sublime Soap",
+	"PRODUCT_DESCRIPTION": "Enjoy the fragrance of this sublime soap",
+	"FREQUENCY": "Frequent",
+	"DISCOUNT": "YES",
+	"DISCOUNT_PERCENT": 2
+}]

@@ -11,7 +11,6 @@ const Category = (props) => {
   const getCategory = async () => {
     let response = await fetch('http://192.168.43.179:3002/api/getUniqueCategory');
     let jsonData = await response.json();
-    console.log("Category Data", jsonData);
     setCategory(jsonData);
   }
   return (
@@ -22,29 +21,10 @@ const Category = (props) => {
         style={{marginStart: 10}}
         renderItem={item => {
           return (
-            <TouchableOpacity onPress={props.handleClick}>
+            <TouchableOpacity onPress={()=>{
+              props.handleCategoryItemClick(item.item)
+            }}>
               <View style={{flex: 1, padding: 5, margin: 5}}>
-                {/* <View
-                  style={{
-                    width: 50,
-                    height: 50,
-                    borderRadius: 50,
-                    backgroundColor: '#E2E2E2',
-                    alignSelf: 'center',
-                  }}>
-                  <Image
-                    style={{
-                      width: 50,
-                      height: 50,
-                      borderRadius: 50,
-                    }}
-                    source={{
-                      uri: item.item.img,
-                    }}
-                  />
-                </View> */}
-
-
                 <View style={{borderWidth:  1,borderLeftColor:  'grey',borderRadius : 5}}>
                 <Text
                   style={{

@@ -1,0 +1,1001 @@
+[{
+	"_id": "63523d7ef02ad4cd2d983ae4",
+	"USER_ID": 6008,
+	"AGE": 50,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae5",
+	"USER_ID": 6010,
+	"AGE": 42,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae8",
+	"USER_ID": 6013,
+	"AGE": 48,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983ae9",
+	"USER_ID": 6014,
+	"AGE": 26,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aea",
+	"USER_ID": 6015,
+	"AGE": 25,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aeb",
+	"USER_ID": 6017,
+	"AGE": 29,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aec",
+	"USER_ID": 6016,
+	"AGE": 25,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aed",
+	"USER_ID": 6018,
+	"AGE": 36,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aee",
+	"USER_ID": 6019,
+	"AGE": 33,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aef",
+	"USER_ID": 6020,
+	"AGE": 28,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af0",
+	"USER_ID": 6021,
+	"AGE": 39,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af1",
+	"USER_ID": 6022,
+	"AGE": 23,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af2",
+	"USER_ID": 6024,
+	"AGE": 31,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af3",
+	"USER_ID": 6023,
+	"AGE": 28,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af4",
+	"USER_ID": 6025,
+	"AGE": 33,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af5",
+	"USER_ID": 6026,
+	"AGE": 45,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af6",
+	"USER_ID": 6027,
+	"AGE": 25,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af7",
+	"USER_ID": 6029,
+	"AGE": 38,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af8",
+	"USER_ID": 6028,
+	"AGE": 35,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983af9",
+	"USER_ID": 6030,
+	"AGE": 20,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983afa",
+	"USER_ID": 6032,
+	"AGE": 24,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983afb",
+	"USER_ID": 6031,
+	"AGE": 38,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983afc",
+	"USER_ID": 6033,
+	"AGE": 20,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983afd",
+	"USER_ID": 6034,
+	"AGE": 57,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983afe",
+	"USER_ID": 6035,
+	"AGE": 60,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983aff",
+	"USER_ID": 6036,
+	"AGE": 47,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b00",
+	"USER_ID": 6037,
+	"AGE": 29,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b01",
+	"USER_ID": 6038,
+	"AGE": 22,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b02",
+	"USER_ID": 6039,
+	"AGE": 41,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b03",
+	"USER_ID": 6040,
+	"AGE": 33,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b04",
+	"USER_ID": 6041,
+	"AGE": 23,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b05",
+	"USER_ID": 6042,
+	"AGE": 35,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b06",
+	"USER_ID": 6043,
+	"AGE": 19,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b07",
+	"USER_ID": 6044,
+	"AGE": 53,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b08",
+	"USER_ID": 6045,
+	"AGE": 27,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b09",
+	"USER_ID": 6046,
+	"AGE": 40,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b0a",
+	"USER_ID": 6047,
+	"AGE": 29,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b0b",
+	"USER_ID": 6048,
+	"AGE": 35,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b0c",
+	"USER_ID": 6049,
+	"AGE": 36,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b0d",
+	"USER_ID": 6050,
+	"AGE": 25,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b0e",
+	"USER_ID": 6051,
+	"AGE": 61,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b0f",
+	"USER_ID": 6052,
+	"AGE": 45,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b10",
+	"USER_ID": 6053,
+	"AGE": 56,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b11",
+	"USER_ID": 6054,
+	"AGE": 52,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b12",
+	"USER_ID": 6055,
+	"AGE": 38,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b13",
+	"USER_ID": 6056,
+	"AGE": 54,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b14",
+	"USER_ID": 6057,
+	"AGE": 21,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b15",
+	"USER_ID": 6058,
+	"AGE": 25,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b16",
+	"USER_ID": 6059,
+	"AGE": 20,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b17",
+	"USER_ID": 6060,
+	"AGE": 29,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b18",
+	"USER_ID": 6061,
+	"AGE": 31,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b19",
+	"USER_ID": 6062,
+	"AGE": 28,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b1a",
+	"USER_ID": 6063,
+	"AGE": 48,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b1b",
+	"USER_ID": 6064,
+	"AGE": 30,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b1c",
+	"USER_ID": 6066,
+	"AGE": 36,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b1d",
+	"USER_ID": 6065,
+	"AGE": 28,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b1e",
+	"USER_ID": 6068,
+	"AGE": 46,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b1f",
+	"USER_ID": 6067,
+	"AGE": 23,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b20",
+	"USER_ID": 6070,
+	"AGE": 66,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b21",
+	"USER_ID": 6069,
+	"AGE": 21,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b22",
+	"USER_ID": 6072,
+	"AGE": 25,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b23",
+	"USER_ID": 6071,
+	"AGE": 45,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b24",
+	"USER_ID": 6074,
+	"AGE": 47,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b25",
+	"USER_ID": 6073,
+	"AGE": 18,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b26",
+	"USER_ID": 6076,
+	"AGE": 43,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b27",
+	"USER_ID": 6077,
+	"AGE": 45,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b28",
+	"USER_ID": 6075,
+	"AGE": 42,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b29",
+	"USER_ID": 6079,
+	"AGE": 30,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b2a",
+	"USER_ID": 6078,
+	"AGE": 21,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b2b",
+	"USER_ID": 6081,
+	"AGE": 50,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b2c",
+	"USER_ID": 6080,
+	"AGE": 22,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b2d",
+	"USER_ID": 6083,
+	"AGE": 30,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b2e",
+	"USER_ID": 6082,
+	"AGE": 39,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b2f",
+	"USER_ID": 6084,
+	"AGE": 20,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b30",
+	"USER_ID": 6085,
+	"AGE": 29,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b31",
+	"USER_ID": 6087,
+	"AGE": 43,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b32",
+	"USER_ID": 6086,
+	"AGE": 29,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b33",
+	"USER_ID": 6089,
+	"AGE": 51,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b34",
+	"USER_ID": 6090,
+	"AGE": 34,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b35",
+	"USER_ID": 6091,
+	"AGE": 22,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b36",
+	"USER_ID": 6088,
+	"AGE": 39,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b37",
+	"USER_ID": 6092,
+	"AGE": 42,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b38",
+	"USER_ID": 6094,
+	"AGE": 37,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b39",
+	"USER_ID": 6093,
+	"AGE": 44,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b3a",
+	"USER_ID": 6095,
+	"AGE": 45,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b3b",
+	"USER_ID": 6096,
+	"AGE": 35,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b3c",
+	"USER_ID": 6097,
+	"AGE": 36,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b3d",
+	"USER_ID": 6098,
+	"AGE": 33,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b3e",
+	"USER_ID": 6100,
+	"AGE": 22,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b3f",
+	"USER_ID": 6099,
+	"AGE": 19,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b40",
+	"USER_ID": 6101,
+	"AGE": 19,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b41",
+	"USER_ID": 6102,
+	"AGE": 39,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b42",
+	"USER_ID": 6103,
+	"AGE": 29,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b43",
+	"USER_ID": 6104,
+	"AGE": 35,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b44",
+	"USER_ID": 6105,
+	"AGE": 53,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b45",
+	"USER_ID": 6106,
+	"AGE": 27,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b46",
+	"USER_ID": 6107,
+	"AGE": 32,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b47",
+	"USER_ID": 6108,
+	"AGE": 44,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b48",
+	"USER_ID": 6109,
+	"AGE": 26,
+	"GENDER": "F",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}, {
+	"_id": "63523d7ef02ad4cd2d983b49",
+	"USER_ID": 6110,
+	"AGE": 21,
+	"GENDER": "M",
+	"NAME": "",
+	"PERSONA": "",
+	"DISCOUNT_PERSONA": "",
+	"BEHAVIOUR_CATEGORY": "",
+	"USED": "N"
+}]

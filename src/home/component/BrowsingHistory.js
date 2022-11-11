@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import storage from '../../storage/Storage';
-const productData = require('../../../collections/recommandation.json');
+//const productData = require('../../../collections/recommandation.json');
 const BrowsingHistory = props => {
   const [BrowsingHistoryItem, setBrowsingHistoryItem] = useState([]);
   const [UserId, setUserId] = useState('');
@@ -37,7 +37,7 @@ const BrowsingHistory = props => {
     <View>
       <FlatList
         style={{marginTop: 10, marginStart: 10}}
-        data={productData}
+        data={BrowsingHistoryItem}
         horizontal
         renderItem={item => {
           return (

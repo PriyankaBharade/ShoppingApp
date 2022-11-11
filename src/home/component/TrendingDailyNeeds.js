@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import storage from '../../storage/Storage';
-const productData = require('../../../collections/trending.json');
+//const productData = require('../../../collections/trending.json');
 const TrendingDailyNeeds = props => {
   const [TrendingItem, setTrendingItem] = useState([]);
   const [UserId, setUserId] = useState('');
@@ -23,7 +23,7 @@ const TrendingDailyNeeds = props => {
         setUserId(userId);
       });
       getTrendingsItems();
-      setTrendingItem(productData.frequentItems)
+     // setTrendingItem(productData.frequentItems)
   }, [UserId]);
   
   const getTrendingsItems = async () => {
@@ -31,7 +31,7 @@ const TrendingDailyNeeds = props => {
       `http://192.168.43.179:3002/api/getTrendingsItems/${UserId}`,
     );
     let jsonData = await response.json();
-    setTrendingItem(jsonData);
+    setTrendingItem(jsonData.frequentItems);
   };
 
   return (

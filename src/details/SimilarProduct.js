@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import {
   View,
   FlatList,
@@ -8,9 +8,10 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-const productData = require('../../collections/discounted.json');
+//const productData = require('../../collections/discounted.json');
 
 const SimilarProduct = props => {
+  const [DiscountedItem, setDiscountedItem] = useState([]);
   useEffect(() => {
     getItemsCategoryBased();
   }, []);
@@ -20,12 +21,13 @@ const SimilarProduct = props => {
       `http://192.168.43.179:3002/api/getItems/${props.productItem.CATEGORY_L1}/${props.productItem.CATEGORY_L2}`,
     );
     let jsonData = await response.json();
+    setDiscountedItem(jsonData)
   };
   return (
     <View>
       <FlatList
         style={{marginTop: 10, marginStart: 10}}
-        data={productData}
+        data={DiscountedItem}
         horizontal
         renderItem={item => {
           return (

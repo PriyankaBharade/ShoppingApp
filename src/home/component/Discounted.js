@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import storage from '../../storage/Storage';
-const productData = require('../../../collections/discounted.json');
+//const productData = require('../../../collections/discounted.json');
 
 const Discounted = props => {
   const [DiscountedItem, setDiscountedItem] = useState([]);
@@ -32,6 +32,7 @@ const Discounted = props => {
       `http://192.168.43.179:3002/api/getItemsInDiscount/${UserId}/10`,
     );
     let jsonData = await response.json();
+    console.log('Recoom Data is Data is', jsonData);
     setDiscountedItem(jsonData);
   };
 
@@ -39,7 +40,7 @@ const Discounted = props => {
     <View>
       <FlatList
         style={{marginTop: 10, marginStart: 10}}
-        data={productData}
+        data={DiscountedItem}
         horizontal
         renderItem={item => {
           return (

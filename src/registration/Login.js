@@ -41,7 +41,6 @@ function Login({navigation}) {
       );
       const jsondata = await response.json();
       setUserList(jsondata);
-      console.log('Jsondata:-   ', jsondata);
     } catch (errore) {
       console.log(errore);
     } finally {
@@ -55,7 +54,6 @@ function Login({navigation}) {
         'http://192.168.43.179:3002/api/getUsersWithTransaction',
       );
       const jsondata = await response.json();
-      console.log('Existing Data:-   ', jsondata);
       setUserList(jsondata);
     } catch (errore) {
       console.log(errore);
@@ -113,12 +111,12 @@ function Login({navigation}) {
               setShowDropDown(!showDropdown);
               if (item?.key === 'New User') {
                 //new user api here...
-                // getNewUserList()
-                setUserList(newUser);
+                 getNewUserList()
+               // setUserList(newUser);
               } else if (item?.key === 'Existing User') {
                 //existing user api call here...
-                // getUsersWithTransaction()
-                setUserList(existingUser);
+                 getUsersWithTransaction()
+               // setUserList(existingUser);
               }
             } else {
               setShowDropDown(!showDropdown);

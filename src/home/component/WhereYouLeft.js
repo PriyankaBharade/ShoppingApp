@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import storage from '../../storage/Storage';
-const productData = require('../../../collections/wherefrom.json');
+//const productData = require('../../../collections/wherefrom.json');
 const WhereYouLeft = props => {
   const [PickFromItem, setPickFromItem] = useState([]);
   const [UserId, setUserId] = useState('');
@@ -37,7 +37,7 @@ const WhereYouLeft = props => {
     <View>
       <FlatList
         style={{marginTop: 10, marginStart: 10}}
-        data={productData}
+        data={PickFromItem}
         horizontal
         renderItem={item => {
           return (

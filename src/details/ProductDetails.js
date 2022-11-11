@@ -39,6 +39,7 @@ function ProductDetails({navigation, route}) {
       `http://192.168.43.179:3002/api/postEvents/${route.params.PRODUCTITEM.ITEM_ID}/${UserId}/View`,
     );
     let jsonData = await response.json();
+    console.log("Details Is" , jsonData)
   };
 
   return (

@@ -1,26 +1,35 @@
-import React, {useEffect,useState}from 'react';
+import React, {useEffect, useState} from 'react';
 import {View, ScrollView, StyleSheet} from 'react-native';
 import CategoryProductItem from './CategoryProductItem';
 
-
-function CategoryBasedProducs({navigation,route}) {
-
-  const productData = require('../../../collections/recommandation.json');
-
+function CategoryBasedProducs({navigation, route}) {
+  //const productData = require('../../../collections/recommandation.json');
   const handleClick = () => navigation.navigate('ProductDetails');
   const handleBuyNow = () => navigation.navigate('PaymentScreen');
-  const [CategoryBasedProduct,setCategoryBasedProduct] = useState([])
+  const [CategoryBasedProduct, setCategoryBasedProduct] = useState([]);
+  const [UserId, setUserId] = useState('');
+  useEffect(() => {
+    storage
+      .load({
+        key: 'USERID',
+        autoSync: true,
+        syncInBackground: true,
+      })
+      .then(userId => {
+        setUserId(userId);
+      });
+      getPersonalizedItems();
+  }, [UserId]);
 
-  useEffect(()=>{
-    getPersonalizedItems();
-   },[]);
 
-   const getPersonalizedItems = async () => {
-    let response = await fetch(`http://192.168.43.179:3002/api/getPersonalizedItems/${route.params.CATEGORY}/5988`);
+  const getPersonalizedItems = async () => {
+    let response = await fetch(
+      `http://192.168.43.179:3002/api/getPersonalizedItems/${route.params.CATEGORY}/${UserId}`,
+    );
     let jsonData = await response.json();
-    setCategoryBasedProduct(jsonData)
-
-  }
+    console.log('Category List ', jsonData);
+    setCategoryBasedProduct(jsonData);
+  };
 
   return (
     <View>
@@ -30,11 +39,15 @@ function CategoryBasedProducs({navigation,route}) {
           width: '100%',
           height: '100%',
         }}>
-        {productData.map((product, index) => {
+        {CategoryBasedProduct.map((product, index) => {
           return (
             <View style={styles.row} key={index}>
               <View style={styles.col}>
-                <CategoryProductItem value={product} handleClick={handleClick} handleBuyNow={handleBuyNow}/>
+                <CategoryProductItem
+                  value={product}
+                  handleClick={handleClick}
+                  handleBuyNow={handleBuyNow}
+                />
               </View>
             </View>
           );

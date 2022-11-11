@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import storage from '../../storage/Storage';
 
-const productData = require('../../../collections/frequently_purchased_item.json');
+//const productData = require('../../../collections/frequently_purchased_item.json');
 const FrequentlyPurchasedItem = props => {
   const [frequentItem, setfrequentItem] = useState([]);
   const [UserId, setUserId] = useState('');
@@ -27,8 +27,9 @@ const FrequentlyPurchasedItem = props => {
   }, [UserId]);
 
   const getfrequentPurchaseItems = async () => {
+    console.log('Frequent USERID', UserId);
     let response = await fetch(
-      `http://192.168.43.179:3002/api/frequentPurchaseItems/${UserId}/10`,
+      `http://192.168.43.179:3002/api/frequentPurchaseItems/${UserId}/10`,//${UserId}
     );
     let jsonData = await response.json();
     setfrequentItem(jsonData);
@@ -38,7 +39,7 @@ const FrequentlyPurchasedItem = props => {
     <View>
       <FlatList
         style={{marginTop: 10, marginStart: 10}}
-        data={productData}
+        data={frequentItem}
         horizontal
         renderItem={item => {
           return (

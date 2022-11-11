@@ -23,7 +23,7 @@ const TrendingLikedItems = props => {
         setUserId(userId);
       });
     getTrendingsItems();
-    setTrendingItem(productData.occasionalProducts)
+    
   }, [UserId]);
 
   const getTrendingsItems = async () => {
@@ -31,7 +31,8 @@ const TrendingLikedItems = props => {
       `http://192.168.43.179:3002/api/getTrendingsItems/${UserId}`,
     );
     let jsonData = await response.json();
-    setTrendingItem(jsonData);
+    //setTrendingItem(jsonData);
+    setTrendingItem(jsonData.occasionalProducts)
   };
 
   return (

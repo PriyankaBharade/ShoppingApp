@@ -28,7 +28,7 @@ const TrendingDailyNeeds = props => {
   
   const getTrendingsItems = async () => {
     let response = await fetch(
-      `http://192.168.43.31:3002/api/getTrendingsItems/${UserId}`,
+      `http://localhost:3002/api/getTrendingsItems/${UserId}`,
     );
     let jsonData = await response.json();
     setTrendingItem(jsonData.frequentItems);

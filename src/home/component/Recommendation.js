@@ -31,7 +31,7 @@ const Recommendation = props => {
     console.log('Recoom USERID', UserId);
     try {
       let response = await fetch(
-        `http://192.168.43.31:3002/api/getRecommendation/${UserId}`,//
+        `http://localhost:3002/api/getRecommendation/${UserId}`,//
       );
       let jsonData = await response.json();
       console.log('Recoom Data is Data is', jsonData);

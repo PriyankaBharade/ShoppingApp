@@ -9,7 +9,7 @@ const Category = (props) => {
   },[]);
 
   const getCategory = async () => {
-    let response = await fetch('http://192.168.43.31:3002:3002/api/getUniqueCategory');
+    let response = await fetch('http://localhost:3002/api/getUniqueCategory');
     let jsonData = await response.json();
     setCategory(jsonData);
   }

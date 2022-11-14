@@ -15,10 +15,8 @@ function Login({navigation}) {
   const [gender, setGender] = useState('');
   const [showDropdown, setShowDropDown] = useState(false);
 
-  const [user, setUser] = useState('');
   const [showUserDropDown, setShowUserDropDown] = useState(false);
   const [userList, setUserList] = useState([]);
-  const [existingUserList, setexistingUserList] = useState([]);
   const [loader, setLoader] = useState(true);
 
   const genderList = [
@@ -33,14 +31,14 @@ function Login({navigation}) {
   ];
 
   //const newUser = require('../../collections/new_user.json');
- // const existingUser = require('../../collections/existing_user.json');
+  // const existingUser = require('../../collections/existing_user.json');
   const getNewUserList = async () => {
     try {
       const response = await fetch(
-        'http://192.168.43.31:3002/api/getNewUsers',
+        'http://localhost:3002/api/getNewUsers',
       );
       const jsondata = await response.json();
-      console.log(jsondata)
+      console.log('New User Response ', jsondata);
       setUserList(jsondata);
     } catch (errore) {
       console.log(errore);
@@ -52,10 +50,10 @@ function Login({navigation}) {
   const getUsersWithTransaction = async () => {
     try {
       const response = await fetch(
-        'http://192.168.43.31:3002/api/getUsersWithTransaction',
+        'http://localhost:3002/api/getUsersWithTransaction',
       );
       const jsondata = await response.json();
-      console.log(jsondata)
+      console.log('Existing User Response ', jsondata);
       setUserList(jsondata);
     } catch (errore) {
       console.log(errore);
@@ -85,69 +83,72 @@ function Login({navigation}) {
   // }, [gender]);
 
   return (
-    <SafeAreaView style={styles.safeContainerStyle}>
-      <View style={styles.container}>
-        <View style={styles.boxStyle}>
-          <Text style={styles.headingStyle}>Sign In</Text>
-          <TouchableOpacity
-            onPress={() => {
-              setShowDropDown(!showDropdown);
-            }}
-            style={styles.dropdwonstyle}>
-            <Text>{gender ? gender?.key : 'Select User Type'}</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => {
-              setShowUserDropDown(!showUserDropDown);
-            }}
-            style={styles.dropdwonstyle}>
-            <Text onPress={DropDownList}>Select User</Text>
-          </TouchableOpacity>
-        </View>
-        <DropDownList
-          list={[{key: 'New User'}, {key: 'Existing User'}]}
-          showDropdown={showDropdown}
-          onItemSelected={item => {
-            if (item) {
-              setGender(item);
-              setShowDropDown(!showDropdown);
-              if (item?.key === 'New User') {
-                //new user api here...
-                 getNewUserList()
-               // setUserList(newUser);
-              } else if (item?.key === 'Existing User') {
-                //existing user api call here...
-                 getUsersWithTransaction()
-               // setUserList(existingUser);
+    <View style={{flex: 1}}>
+      <View style={styles.OuterContainerStyle}></View>
+      <SafeAreaView style={styles.safeContainerStyle}>
+        <View style={styles.container}>
+          <View style={styles.boxStyle}>
+            <Text style={styles.headingStyle}>Sign In</Text>
+            <TouchableOpacity
+              onPress={() => {
+                setShowDropDown(!showDropdown);
+              }}
+              style={styles.dropdwonstyle}>
+              <Text>{gender ? gender?.key : 'Select User Type'}</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                setShowUserDropDown(!showUserDropDown);
+              }}
+              style={styles.dropdwonstyle}>
+              <Text onPress={DropDownList}>Select User</Text>
+            </TouchableOpacity>
+          </View>
+          <DropDownList
+            list={[{key: 'New User'}, {key: 'Existing User'}]}
+            showDropdown={showDropdown}
+            onItemSelected={item => {
+              if (item) {
+                setGender(item);
+                setShowDropDown(!showDropdown);
+                if (item?.key === 'New User') {
+                  //new user api here...
+                  getNewUserList();
+                  // setUserList(newUser);
+                } else if (item?.key === 'Existing User') {
+                  //existing user api call here...
+                  getUsersWithTransaction();
+                  // setUserList(existingUser);
+                }
+              } else {
+                setShowDropDown(!showDropdown);
               }
-            } else {
-              setShowDropDown(!showDropdown);
-            }
-          }}
-        />
-        <DropDownList
-          list={userList}
-          showDropdown={showUserDropDown}
-          // setShowDropdown={() => {
-          //   //setShowUserDropDown(!showDropdown);
-          // }}
-          onItemSelected={item => {
-            if (item) {
-              setShowUserDropDown(!showUserDropDown);
-              storage.save({
-                key: 'USERID',
-                data: item?.USER_ID,
-                expires: null,
-              });
-              navigation.navigate('Home', {USER_ID: item?.USER_ID});
-            } else {
-              setShowUserDropDown(!showUserDropDown);
-            }
-            console.log(item);
-          }}
-        />
-      </View>
-    </SafeAreaView>
+            }}
+          />
+          <DropDownList
+            list={userList}
+            showDropdown={showUserDropDown}
+            // setShowDropdown={() => {
+            //   //setShowUserDropDown(!showDropdown);
+            // }}
+            onItemSelected={item => {
+              if (item) {
+                setShowUserDropDown(!showUserDropDown);
+                storage.save({
+                  key: 'USERID',
+                  data: item?.USER_ID,
+                  expires: null,
+                });
+                navigation.navigate('Home', {USER_ID: item?.USER_ID});
+              } else {
+                setShowUserDropDown(!showUserDropDown);
+              }
+              console.log(item);
+            }}
+          />
+        </View>
+      </SafeAreaView>
+    </View>
   );
   // return (
   //   <SafeAreaView style={styles.safeContainerStyle}>
@@ -227,6 +228,13 @@ function Login({navigation}) {
 }
 
 const styles = StyleSheet.create({
+  OuterContainerStyle: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#A1560B',
+    opacity: 0.5,
+    position: 'absolute',
+  },
   headingStyle: {
     fontSize: 22,
     marginTop: 20,
@@ -247,11 +255,9 @@ const styles = StyleSheet.create({
   safeContainerStyle: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#80A1560B',
   },
   container: {
     flex: 1,
-    backgroundColor: '#80A1560B',
     justifyContent: 'center',
   },
   boxStyle: {

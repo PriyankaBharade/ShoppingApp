@@ -24,7 +24,7 @@ function CategoryBasedProducs({navigation, route}) {
 
   const getPersonalizedItems = async () => {
     let response = await fetch(
-      `http://192.168.43.31:3002/api/getPersonalizedItems/${route.params.CATEGORY}/${UserId}`,
+      `http://localhost:3002/api/getPersonalizedItems/${route.params.CATEGORY}/${UserId}`,
     );
     let jsonData = await response.json();
     console.log('Category List ', jsonData);

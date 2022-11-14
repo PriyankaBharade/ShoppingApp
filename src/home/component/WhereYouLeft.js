@@ -27,7 +27,7 @@ const WhereYouLeft = props => {
 
   const getpickUpWhereyouLeftItems = async () => {
     let response = await fetch(
-      `http://192.168.43.31:3002/api/pickUpWhereyouLeft/${UserId}/10`,
+      `http://localhost:3002/api/pickUpWhereyouLeft/${UserId}/10`,
     );
     let jsonData = await response.json();
     setPickFromItem(jsonData);

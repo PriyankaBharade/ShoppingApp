@@ -29,7 +29,7 @@ const FrequentlyPurchasedItem = props => {
   const getfrequentPurchaseItems = async () => {
     console.log('Frequent USERID', UserId);
     let response = await fetch(
-      `http://192.168.43.179:3002/api/frequentPurchaseItems/${UserId}/10`,//${UserId}
+      `http://192.168.43.31:3002/api/frequentPurchaseItems/${UserId}/10`,//${UserId}
     );
     let jsonData = await response.json();
     setfrequentItem(jsonData);

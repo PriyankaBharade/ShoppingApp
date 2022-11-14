@@ -29,7 +29,7 @@ const Discounted = props => {
 
   const getItemsInDiscountItems = async () => {
     let response = await fetch(
-      `http://192.168.43.179:3002/api/getItemsInDiscount/${UserId}/10`,
+      `http://192.168.43.31:3002/api/getItemsInDiscount/${UserId}/10`,
     );
     let jsonData = await response.json();
     console.log('Recoom Data is Data is', jsonData);

@@ -44,7 +44,7 @@ function homescreen({navigation, route}) {
 
   const getpostEvents = async item => {
     let response = await fetch(
-      `http://192.168.43.179:3002/api/postEvents/${item.item.ITEM_ID}/${UserId}/ADD TO CART`,
+      `http://192.168.43.31:3002/api/postEvents/${item.item.ITEM_ID}/${UserId}/ADD TO CART`,
     );
     let jsonData = await response.json();
     console.log('Post Event Json Data', jsonData);

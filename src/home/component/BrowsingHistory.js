@@ -27,7 +27,7 @@ const BrowsingHistory = props => {
 
   const getItemsOfInterestFromHistory = async () => {
     let response = await fetch(
-      `http://192.168.43.179:3002/api/getItemsOfInterestFromHistory/${UserId}/10`,
+      `http://192.168.43.31:3002/api/getItemsOfInterestFromHistory/${UserId}/10`,
     );
     let jsonData = await response.json();
     setBrowsingHistoryItem(jsonData);

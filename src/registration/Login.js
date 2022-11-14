@@ -32,14 +32,15 @@ function Login({navigation}) {
     },
   ];
 
-  const newUser = require('../../collections/new_user.json');
-  const existingUser = require('../../collections/existing_user.json');
+  //const newUser = require('../../collections/new_user.json');
+ // const existingUser = require('../../collections/existing_user.json');
   const getNewUserList = async () => {
     try {
       const response = await fetch(
-        'http://192.168.43.179:3002/api/getNewUsers',
+        'http://192.168.43.31:3002/api/getNewUsers',
       );
       const jsondata = await response.json();
+      console.log(jsondata)
       setUserList(jsondata);
     } catch (errore) {
       console.log(errore);
@@ -51,9 +52,10 @@ function Login({navigation}) {
   const getUsersWithTransaction = async () => {
     try {
       const response = await fetch(
-        'http://192.168.43.179:3002/api/getUsersWithTransaction',
+        'http://192.168.43.31:3002/api/getUsersWithTransaction',
       );
       const jsondata = await response.json();
+      console.log(jsondata)
       setUserList(jsondata);
     } catch (errore) {
       console.log(errore);
@@ -245,10 +247,11 @@ const styles = StyleSheet.create({
   safeContainerStyle: {
     flex: 1,
     justifyContent: 'center',
+    backgroundColor: '#80A1560B',
   },
   container: {
     flex: 1,
-    backgroundColor: 'e2e2e2',
+    backgroundColor: '#80A1560B',
     justifyContent: 'center',
   },
   boxStyle: {

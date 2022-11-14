@@ -22,7 +22,7 @@ function Payment({navigation,route}) {
     });
   const getpostEvents = async () => {
     let response = await fetch(
-      `http://192.168.43.179:3002/api/postEvents/${route.params.PRODUCTITEM.ITEM_ID}/${UserId}/Purchase`,
+      `http://192.168.43.31:3002/api/postEvents/${route.params.PRODUCTITEM.ITEM_ID}/${UserId}/Purchase`,
     );
     let jsonData = await response.json();
     navigation.goBack()

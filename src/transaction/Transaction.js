@@ -32,7 +32,7 @@ function Transaction({navigation}) {
 
   const getInteractions = async () => {
     let response = await fetch(
-      `http://192.168.43.179:3002/api/getInteractions/${UserId}`,
+      `http://192.168.43.31:3002/api/getInteractions/${UserId}`,
     );
     let jsonData = await response.json();
     Transaction(jsonData);

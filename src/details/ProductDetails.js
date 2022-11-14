@@ -36,7 +36,7 @@ function ProductDetails({navigation, route}) {
 
   const getpostEvents = async () => {
     let response = await fetch(
-      `http://192.168.43.179:3002/api/postEvents/${route.params.PRODUCTITEM.ITEM_ID}/${UserId}/View`,
+      `http://192.168.43.31:3002/api/postEvents/${route.params.PRODUCTITEM.ITEM_ID}/${UserId}/View`,
     );
     let jsonData = await response.json();
     console.log("Details Is" , jsonData)

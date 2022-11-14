@@ -18,7 +18,7 @@ const SimilarProduct = props => {
 
   const getItemsCategoryBased = async () => {
     let response = await fetch(
-      `http://192.168.43.179:3002/api/getItems/${props.productItem.CATEGORY_L1}/${props.productItem.CATEGORY_L2}`,
+      `http://192.168.43.31:3002/api/getItems/${props.productItem.CATEGORY_L1}/${props.productItem.CATEGORY_L2}`,
     );
     let jsonData = await response.json();
     setDiscountedItem(jsonData)
